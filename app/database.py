@@ -1,8 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
-
-DATABASE_URL = "postgresql://postgres:postgres@localhost/bibliotheque_numerique"
+from 
 
 engine = create_engine(DATABASE_URL)
 
